@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477428649758",
+    "project_id": "projectbookstoreapp-f69cf",
+    "storage_bucket": "projectbookstoreapp-f69cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477428649758:android:e3a3ada426be97bdd6830f",
+        "android_client_info": {
+          "package_name": "edu.ewubd.projectbookstoreapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjCFlnq2AccOx7umqW610KoxN0a9rHXUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BookListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:elevation="4dp"
+
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="106dp"
+        android:layout_height="134dp"
+        android:adjustViewBounds="true"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvBookTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Maybe Someday"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAuthorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBookTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Author:Collen Hoover"
+        android:textSize="17dp"
+        android:textColor="#1B219E"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAuthorName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp"
+        android:text="4.2"
+        android:textSize="15dp"
+        android:textColor="#366E38"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRating"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="4333"
+        android:textSize="17dp"
+        android:textColor="#8F1706"
+        android:textStyle="bold" />
+
+</RelativeLayout>
