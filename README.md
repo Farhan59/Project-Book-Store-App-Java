@@ -21,7 +21,6 @@ It uses **Firebase** for user authentication and real-time database management, 
 - **Java** (Android Development)
 - **Android Studio**
 - **Firebase Authentication & Realtime Database**
-- **SQLite** (if any local storage used)
 - **XML** (UI Design)
 
 ---
